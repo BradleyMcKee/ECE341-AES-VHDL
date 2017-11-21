@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\AES\library.cfg"  -j "c:\My_Designs\AES\AES\projlib.cfg"  -d "c:\My_Designs\AES\AES\compile"   -work AES  -O3 -e 100 -2002 "c:\My_Designs\AES\AES\src\sboxdflow.vhd"

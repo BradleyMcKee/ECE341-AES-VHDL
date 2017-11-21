@@ -1,0 +1,11 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: c:\My_Designs\AES\AES\src\sboxdflow.vhd" 
+MESSAGE "Compile Entity "sboxdflow"" 
+MESSAGE "Compile Architecture "sample" of Entity "sboxdflow"" 
+ERROR COMP96_0018: "Identifier expected." "c:\My_Designs\AES\AES\src\sboxdflow.vhd" 57 20
+ERROR COMP96_0015: "'<=' expected." "c:\My_Designs\AES\AES\src\sboxdflow.vhd" 57 20
+ERROR COMP96_0040: "Incorrect syntax of selected signal assignment." "c:\My_Designs\AES\AES\src\sboxdflow.vhd" 57 20
+ERROR COMP96_0019: "Keyword 'end' expected." "c:\My_Designs\AES\AES\src\sboxdflow.vhd" 59 2
+ERROR COMP96_0016: "Design unit declaration expected." "c:\My_Designs\AES\AES\src\sboxdflow.vhd" 59 3
+ERROR COMP96_0018: "Identifier expected." "c:\My_Designs\AES\AES\src\sboxdflow.vhd" 74 17
+FAILURE "Compile failure 6 Errors 0 Warnings  Analysis time :  62.0 [ms]" 

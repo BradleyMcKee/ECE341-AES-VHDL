@@ -1,0 +1,90 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=AES
+
+[Library]
+AES=.\AES\AES.lib
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+CSYNTH_TOOL=<none>
+PHYSSYNTH_TOOL=<none>
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+FAMILY=<none>
+fileopenfolder=C:\My_Designs\AES\AES\src
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+AES=.
+Active_lib=
+sboxdflow=.
+
+[IMPLEMENTATION]
+UCF=
+
+[Folders]
+Name3=Makefiles
+Directory3=c:\My_Designs\AES\AES\
+Extension3=mak
+Name4=Memory
+Directory4=c:\My_Designs\AES\AES\
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=c:\My_Designs\AES\AES\
+Extension5=dll
+Name6=PDF
+Directory6=c:\My_Designs\AES\AES\
+Extension6=pdf
+Name7=HTML
+Directory7=c:\My_Designs\AES\AES\
+Extension7=
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=sbox|sample|0    
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/Shift.vhd=-1
+/inverseShift.vhd=-1
+/Sbox.vhd=-1
+/sboxdflow.vhd=-1
+/jkjkjk.vhd=-1
+
+[Files.Data]
+.\src\Shift.vhd=VHDL Source Code
+.\src\inverseShift.vhd=VHDL Source Code
+.\src\Sbox.vhd=VHDL Source Code
+.\src\sboxdflow.vhd=VHDL Source Code
+
+.\src\jkjkjk.vhd=VHDL Source Code

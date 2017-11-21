@@ -1,0 +1,8 @@
+[Version]
+Version=10.3
+[Designs]
+AES=AES.adf
+[Settings]
+Active=AES
+[Expand]
+aes=1
